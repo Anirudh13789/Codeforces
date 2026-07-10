@@ -19,9 +19,9 @@ bool unique(int n){
 int main(){
     int n;
     cin>>n;
-    while(!unique(n)){
+    while(!unique(n+1)){
         n=n+1;
     }
-    cout<<n;
+    cout<<n+1;
     return 0;
 }
