@@ -14,7 +14,7 @@ int main(){
         st.pop();
         if(ch=='.'){
             cout<<0;
-        }
+        }   
         else if(ch=='-' && st.top()=='.'){
             cout<<1;
             st.pop();
