@@ -4,7 +4,7 @@ int main(){
     int n,m;
     cin>>n>>m;
     int cnt=0;
-    int ans=0;
+    int ans=n;
     while(n>=m){
         cnt=n/m;
         ans+=cnt;
